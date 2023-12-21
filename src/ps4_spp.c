@@ -86,7 +86,7 @@ static void sppCallback(esp_spp_cb_event_t event, esp_spp_cb_param_t* param) {
 //#if CONFIG_IDF_COMPATIBILITY >= IDF_COMPATIBILITY_MASTER_D9CE0BB
 //    esp_bt_gap_set_scan_mode(ESP_BT_CONNECTABLE, ESP_BT_NON_DISCOVERABLE);
 //#elif CONFIG_IDF_COMPATIBILITY >= IDF_COMPATIBILITY_MASTER_21AF1D7
-    esp_bt_gap_set_scan_mode(ESP_BT_SCAN_MODE_CONNECTABLE);
+    esp_bt_gap_set_scan_mode(ESP_BT_CONNECTABLE, ESP_BT_NON_CONNECTABLE);
 //#endif
 
     esp_spp_start_srv(ESP_SPP_SEC_NONE, ESP_SPP_ROLE_SLAVE, 0, "ESP SERVER");
