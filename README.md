@@ -4,6 +4,9 @@
 1. GetBluetoothMacAddress : get the MAC address of the ESP32
 2. bt_remove_paired_devices : If you have connected more than one Dual Shock4 and ESP32, and cannot connect them again, try unpairing them.
 -------------------------------------------------------------------------------------------------------------------------
+# Arduino IDE2.2.1 改良版  
+最新型のArduinoIDE2.2.1でも使えるようにライブラリを修正した。  
+-------------------------------------------------------------------------------------------------------------------------
 # PS4-esp32
 Use a PS4 controller with an ESP32
 
